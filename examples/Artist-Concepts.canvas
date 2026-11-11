@@ -1,0 +1,11 @@
+{
+  "nodes": [
+    {"id":"artist","type":"text","text":"# Artist identity\nAn example self-produced songwriter from Southwest Louisiana. Observant, dry humor, concrete details. Avoid slogans and generic filler.","x":0,"y":0,"width":350,"height":240},
+    {"id":"purpose","type":"text","text":"# Song purpose\nA narrator returns to a childhood street and notices what survived a hurricane. Show mixed feelings through one specific encounter.","x":0,"y":320,"width":350,"height":240},
+    {"id":"prompt","type":"text","text":"# Draft a song concept\nUsing [Artist identity](canvas-node:artist) and [Song purpose](canvas-node:purpose), propose three distinct story premises. Give each a setting, a central encounter, and a reason this artist would sing it.\n\nClick Context to inspect the request, then Run.","x":480,"y":130,"width":410,"height":300}
+  ],
+  "edges": [
+    {"id":"loom-ref:artist:prompt","fromNode":"artist","toNode":"prompt","fromSide":"right","toSide":"left","toEnd":"arrow","color":"5"},
+    {"id":"loom-ref:purpose:prompt","fromNode":"purpose","toNode":"prompt","fromSide":"right","toSide":"left","toEnd":"arrow","color":"5"}
+  ]
+}

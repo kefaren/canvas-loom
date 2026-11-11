@@ -1,0 +1,9 @@
+{
+  "id": "canvas-loom",
+  "name": "Canvas Loom",
+  "version": "0.2.0",
+  "minAppVersion": "1.8.0",
+  "description": "Mention Canvas nodes with @, connect context, and generate responses through your local Codex login.",
+  "author": "Kefaren",
+  "isDesktopOnly": true
+}
