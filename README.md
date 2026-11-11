@@ -6,6 +6,12 @@ Type `@` in a Canvas text card or an editable Markdown file card, choose another
 
 This is a working **0.2.0 beta**, with compiled installation files and editable TypeScript source. It is not listed in Obsidian's community plugin directory. Canvas internals are not a stable public API, so keep a backup while evaluating it.
 
+## Inspiration and direction
+
+Canvas Loom grew out of my appreciation for Magnific and its Spaces feature. Spaces inspired this plugin and continues to guide its development. My goal is to bring that experience into Obsidian as faithfully as I can, using native Canvas files as the foundation.
+
+The current release is an early step toward that goal; it does not yet reproduce the full Spaces experience. Thank you to the Magnific team for the inspiration.
+
 ## Install on your Mac
 
 1. Extract this archive. Copy the **`canvas-loom` folder** into your vault's `.obsidian/plugins/` folder. The files `main.js`, `manifest.json`, and `styles.css` must be directly inside `.obsidian/plugins/canvas-loom/`.
